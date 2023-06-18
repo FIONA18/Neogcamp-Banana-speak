@@ -42,6 +42,7 @@ h1{
     background-color: var(--secondary-color);
     border-color: var(--secondary-color);
     border-radius: 1rem;
+    font-size: small;
 }
 #output
 {
@@ -54,6 +55,7 @@ h1{
     min-width: 60vh;
     display: block;
     border-radius: 1rem;
+    font-size: small;
 }
 .Header-Section
 {
