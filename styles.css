@@ -33,8 +33,8 @@ body{
     font-family: inherit;
     margin: 1rem auto;
     padding: 1rem;
-    height: 20vh;
-    width: 12rem;
+    height: 9rem;
+    width: 15rem;
     display: block;
     background-color: var(--secondary-color);
     border-color: var(--secondary-color);
@@ -47,8 +47,8 @@ body{
     padding: 1rem;
     border: 1px solid var(--off-white);
     background-color: var(--secondary-color);
-    height: 20vh;
-    width: 12rem;
+    height: 9rem;
+    width: 15rem;
     display: block;
     border-radius: 1rem;
     font-size: small;
@@ -63,7 +63,6 @@ body{
 .footer
 {
     background-color: var(--primary-color);
-
     bottom: 0;
     padding: 1rem;
     border-top-right-radius: 1rem;
@@ -71,10 +70,10 @@ body{
 
 .footer p
 {
-   padding: 1rem;
+    padding: 1rem;
     margin: auto;
     text-align:justify;
-    min-width: 10rem;
+    width: 25rem;
 }
 /* position: fixed;
 bottom: 0;
