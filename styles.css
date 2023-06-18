@@ -70,10 +70,11 @@ body{
 
 .footer p
 {
-    padding: 1rem;
+    
+    padding: 2rem;
     margin: auto;
     text-align:justify;
-    width: 25rem;
+    width: Auto;
 }
 /* position: fixed;
 bottom: 0;
