@@ -9,9 +9,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin:0px;
 }
-h1{
-    color: var(--off-white);
-}
+
 #btnTranslate
 {
     margin: auto;
@@ -22,7 +20,6 @@ h1{
     background-color: var(--primary-color);
     font-family: inherit;
     border-radius: 1rem;
-    color: var(--off-white);
     border-color: var(--secondary-color);
 
 }
@@ -52,7 +49,7 @@ h1{
     background-color: var(--secondary-color);
     height: 20vh;
     width: 60vh;
-    min-width: 60vh;
+    min-width: 3ch;
     display: block;
     border-radius: 1rem;
     font-size: small;
@@ -61,25 +58,24 @@ h1{
 {
    background-color: var(--primary-color);
    border-bottom-left-radius: 1rem;
-   color: white;
    padding: 1rem;
+ 
 }
 .footer
 {
     background-color: var(--primary-color);
-    padding: 2rem;
-    width: 100%;
+
     bottom: 0;
-    position: fixed;
-    text-align: center;
-    color: white;
+    padding: 1rem;
     border-top-right-radius: 1rem;
 }
-.container
+
+.footer p
 {
+   padding: 1rem;
     margin: auto;
-    display: block;
-    width: 100vh;
+    text-align:justify;
+    width: 60vh;
 }
 /* position: fixed;
 bottom: 0;
