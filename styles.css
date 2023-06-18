@@ -34,7 +34,7 @@ body{
     margin: 1rem auto;
     padding: 1rem;
     height: 20vh;
-    min-width: 60vh;
+    width: 12rem;
     display: block;
     background-color: var(--secondary-color);
     border-color: var(--secondary-color);
@@ -48,8 +48,7 @@ body{
     border: 1px solid var(--off-white);
     background-color: var(--secondary-color);
     height: 20vh;
-    width: 60vh;
-    min-width: 3ch;
+    width: 12rem;
     display: block;
     border-radius: 1rem;
     font-size: small;
@@ -75,7 +74,7 @@ body{
    padding: 1rem;
     margin: auto;
     text-align:justify;
-    width: 60vh;
+    min-width: 10rem;
 }
 /* position: fixed;
 bottom: 0;
